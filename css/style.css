@@ -11,18 +11,16 @@
     padding-top: 20px;
 }
 
-/* The navigation menu links */
-.sidenav a {
-    padding: 6px 8px 6px 16px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #818181;
-    display: block;
+.sidenav {
+  display: block;
+  font-family: sans-serif;
+  padding: 6px 8px 6px 16px;
+  list-style-type: none;
 }
 
-/* When you mouse over the navigation links, change their color */
-.sidenav a:hover {
-    color: #f1f1f1;
+.sidenav a{
+  color: blue;
+
 }
 
 /* Style page content */
