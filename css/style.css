@@ -6,7 +6,7 @@
     z-index: 1; /* Stay on top */
     top: 0; /* Stay at the top */
     left: 0;
-    background-color: grey; /* Black */
+    background-color: #f6f6f6; /* Black */
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 20px;
 }
@@ -29,6 +29,18 @@
 .main {
     margin-left: 160px; /* Same as the width of the sidebar */
     padding: 0px 10px;
+    margin-top: 160px;
+}
+
+.topnav {
+  width: 100%;
+  height: 100px;
+  background: linear-gradient(to bottom, rgba(246,246,246,0), rgba(246,246,246,1));
+}
+
+.input-group {
+  width: 300px;
+  float: left;
 }
 
 /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
